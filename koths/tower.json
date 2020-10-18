@@ -1,0 +1,160 @@
+koth: |-
+  {
+    "name": "tower",
+    "active": false,
+    "tempDisabled": false,
+    "kothLoc": {
+      "world": "test2",
+      "x1": 166,
+      "y1": 75,
+      "z1": -1364,
+      "x2": 173,
+      "y2": 66,
+      "z2": -1367
+    },
+    "kothSchedule": {
+      "scheduledKOTHs": [
+        {
+          "id": 0,
+          "requiredTime": 45,
+          "playersRequired": 0,
+          "maxRunTime": 300,
+          "maxPoints": 0,
+          "date": {
+            "dateTime": {
+              "date": {
+                "year": 2020,
+                "month": 10,
+                "day": 17
+              },
+              "time": {
+                "hour": 22,
+                "minute": 35,
+                "second": 0,
+                "nano": 0
+              }
+            },
+            "offset": {
+              "totalSeconds": 3600
+            },
+            "zone": {
+              "id": "Europe/London"
+            }
+          },
+          "scheduleType": "DAILY"
+        },
+        {
+          "id": 1,
+          "requiredTime": 60,
+          "playersRequired": 0,
+          "maxRunTime": 300,
+          "maxPoints": 0,
+          "date": {
+            "dateTime": {
+              "date": {
+                "year": 2020,
+                "month": 10,
+                "day": 17
+              },
+              "time": {
+                "hour": 23,
+                "minute": 0,
+                "second": 0,
+                "nano": 0
+              }
+            },
+            "offset": {
+              "totalSeconds": 3600
+            },
+            "zone": {
+              "id": "Europe/London"
+            }
+          },
+          "scheduleType": "DAILY"
+        },
+        {
+          "id": 2,
+          "requiredTime": 60,
+          "playersRequired": 0,
+          "maxRunTime": 300,
+          "maxPoints": 0,
+          "date": {
+            "dateTime": {
+              "date": {
+                "year": 2020,
+                "month": 10,
+                "day": 18
+              },
+              "time": {
+                "hour": 11,
+                "minute": 35,
+                "second": 0,
+                "nano": 0
+              }
+            },
+            "offset": {
+              "totalSeconds": -18000
+            },
+            "zone": {
+              "id": "America/Chicago"
+            }
+          },
+          "scheduleType": "DAILY"
+        },
+        {
+          "id": 3,
+          "requiredTime": 60,
+          "playersRequired": 0,
+          "maxRunTime": 300,
+          "maxPoints": 0,
+          "date": {
+            "dateTime": {
+              "date": {
+                "year": 2020,
+                "month": 10,
+                "day": 18
+              },
+              "time": {
+                "hour": 11,
+                "minute": 45,
+                "second": 0,
+                "nano": 0
+              }
+            },
+            "offset": {
+              "totalSeconds": -18000
+            },
+            "zone": {
+              "id": "America/Chicago"
+            }
+          },
+          "scheduleType": "DAILY"
+        }
+      ],
+      "nextId": 4
+    },
+    "kothDetails": {
+      "runTime": 80,
+      "maxRunTime": 300,
+      "maxPoints": 0,
+      "captureTime": 0,
+      "requiredTime": 60,
+      "syncTaskID": 4,
+      "asyncTaskID": 3,
+      "chatDelay": 5,
+      "disableChat": true,
+      "broadcastTimes": [
+        60,
+        30
+      ]
+    },
+    "kothLoot": {
+      "lootItems": [],
+      "lootLocations": [],
+      "lootType": "KEY"
+    },
+    "kothAutoStart": {
+      "players": 0,
+      "runTime": 0
+    }
+  }
