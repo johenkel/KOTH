@@ -129,11 +129,16 @@ RUN_CAPPER_SYNC: false
 RESET_MAXRUNTIME_ON_CAPTURE: false # Set this to true to reset the maxruntime every time a player starts capturing
 
 CUSTOM_HELP_PAGE:
-  ENABLED: false
-  TITLE: '&aCustom KOTH Help Menu'
+  ENABLED: true
+  TITLE: '&aPirateCraft KOTH Help Menu'
   PAGES:
     1: # List the page number here
+    - '&l&6Welcome to the King of the Hull at PirateCraft!'
+    - ' '
+    - '&aKOTHs are scheduled throughout the day. Use the commands'
+    - '&abelow to learn more.'
     - '&a/koth times &b- View the scheduled KOTHs.'
+    - '&a/koth top &b- View current top KOTH crews.'
     
 MINIMUM_PLAYERS_FOR_SCHEDULE_START: -1 # Set to -1 for this to be disabled
  
